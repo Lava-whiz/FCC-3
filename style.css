@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(349, 58%, 93%);
+}
+
+.head_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  background-color: hsl(343, 75%, 30%);
+}
+
+@media screen and (min-width: 400px) {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+}
+
+#header-img {
+  max-width: 25%;
+  height: auto;
+  margin: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 30px;
+  color: hsl(349, 100%, 90%);
+}
+
+.nav-link:hover {
+  background-color: brown;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+}
+
+.video_con {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+h1 {
+  color: hsl(343, 75%, 30%);
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  color: hsla(343, 74%, 52%, 0.685);
+}
+p {
+  color: hsl(352, 33%, 38%);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: hsl(350, 13%, 46%);
+  border-radius: 5px;
+}
+
+section {
+  margin: 3px;
+  padding: 10px;
+  background-color: lavender;
+  border-radius: 3px;
+}
+
+.submit-form {
+  background-color: hsl(350, 13%, 46%);
+  margin: 100px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+#register {
+  color: hsl(343, 75%, 20%);
+  text-align: center;
+}
+
+#email {
+  padding: 3px;
+  margin: 5px;
+  background-color: hsl(349, 100%, 90%);
+  border: none;
+}
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  background-color: hsla(128, 21%, 63%, 0.685);
+  border: solid;
+  color: hsl(125, 33%, 38%);
+}
